@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "prettier": "3.9.10",
     "typescript": "^7.0.2"
   }
 }
