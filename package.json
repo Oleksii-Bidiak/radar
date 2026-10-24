@@ -41,7 +41,6 @@
     "*.{md,json}": "prettier --write"
   },
   "dependencies": {
-    "@babel/parser": "^8.0.7",
     "oxc-parser": "^0.155.0"
   }
 }
